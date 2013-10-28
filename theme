@@ -134,7 +134,7 @@ case "$1" in
 	    echo -en "\e]P700CC00"
 	    echo -en "\e]PF00CC00"
 	    clear #for background artifacting
-
+	    ;;
     *)
 	    echo "No valid theme chosen"
 	    echo "call the script without arguments"
