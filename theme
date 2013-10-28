@@ -11,6 +11,7 @@ if [ $# -lt 1 ]; then
    echo "'mono' = Wuxmedia's Mono"
    echo "'cvc' = Baskerville's Count von Count"
    echo "'vblue' = Gutterslob's Visiblue"
+   echo "'matrix' = !OK100's Matrix"
 else
 case "$1" in
     "ilight")
@@ -114,6 +115,26 @@ case "$1" in
 	    echo -en "\e]PFCCFFFF"
 	    clear #for background artifacting
 	    ;;
+    "matrix")
+	    ## Console Colors - !OK-100 Matrix
+	    echo -en "\e]P0000000"
+	    echo -en "\e]P8000000"
+	    echo -en "\e]P155FF55"
+	    echo -en "\e]P955FF55"
+	    echo -en "\e]P200CC00"
+	    echo -en "\e]PA55FF55"
+	    echo -en "\e]P300CC00"
+	    echo -en "\e]PB55FF55"
+	    echo -en "\e]P4005500"
+	    echo -en "\e]PC005500"
+	    echo -en "\e]P555FF55"
+	    echo -en "\e]PD55FF55"
+	    echo -en "\e]P600CC00"
+	    echo -en "\e]PE55FF55"
+	    echo -en "\e]P700CC00"
+	    echo -en "\e]PF00CC00"
+	    clear #for background artifacting
+
     *)
 	    echo "No valid theme chosen"
 	    echo "call the script without arguments"
