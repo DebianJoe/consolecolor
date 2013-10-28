@@ -12,6 +12,7 @@ if [ $# -lt 1 ]; then
    echo "'cvc' = Baskerville's Count von Count"
    echo "'vblue' = Gutterslob's Visiblue"
    echo "'matrix' = !OK100's Matrix"
+   echo "'fside' = Baskerville's FarSide"
 else
 case "$1" in
     "ilight")
@@ -133,6 +134,26 @@ case "$1" in
 	    echo -en "\e]PE55FF55"
 	    echo -en "\e]P700CC00"
 	    echo -en "\e]PF00CC00"
+	    clear #for background artifacting
+	    ;;
+    "fside")
+	    ## Console Colors - FarSide - Baskerville
+	    echo -en "\e]P0303030" #black#
+	    echo -en "\e]P85E5E5E" #black2#
+	    echo -en "\e]P7C6C6C6" #white#
+	    echo -en "\e]PFFFFFFF" #white2#
+	    echo -en "\e]P1A43261" #red#
+	    echo -en "\e]P9FF9FC9" #red2#
+	    echo -en "\e]P3007086" #yellow#
+	    echo -en "\e]PB00DDF4" #yellow2#
+	    echo -en "\e]P2006CA5" #green#
+	    echo -en "\e]PA3BD6FF" #green2#
+	    echo -en "\e]P60061B1" #cyan#
+	    echo -en "\e]PE93C9FF" #cyan2#
+	    echo -en "\e]P46751A6" #blue#
+	    echo -en "\e]PCD5B8FF" #blue2#
+	    echo -en "\e]P5913E88" #magenta#
+	    echo -en "\e]PDFFA7F6" #magenta2#
 	    clear #for background artifacting
 	    ;;
     *)
