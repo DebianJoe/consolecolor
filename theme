@@ -1,0 +1,123 @@
+#!/bin/bash
+
+# Switching FBTerm Color Themes from Wuxmedia and DebianJoe
+# of the LinuxBBQ.
+
+if [ $# -lt 1 ]; then
+   echo "Run script as 'theme <name_of_theme>'"
+   echo "available themes"
+   echo "'ilight' = Baskerville's Ivory Light"
+   echo "'insig' = Baskerville's Insignificato"
+   echo "'mono' = Wuxmedia's Mono"
+   echo "'cvc' = Baskerville's Count von Count"
+   echo "'vblue' = Gutterslob's Visiblue"
+else
+case "$1" in
+    "ilight")
+	    # Console colors -Baskerville - IvoryLight-
+	    echo -en "\e]P0FEF9EC" #background
+	    echo -en "\e]P8C5C1B4" #darkgrey
+	    echo -en "\e]P1E75C58" #darkred
+	    echo -en "\e]P9B22B31" #red
+	    echo -en "\e]P200A250" #darkgreen
+	    echo -en "\e]PA007427" #green
+	    echo -en "\e]P3A08A00" #brown
+	    echo -en "\e]PB715F00" #yellow
+	    echo -en "\e]P4208FFB" #darkblue
+	    echo -en "\e]PC0065CA" #blue
+	    echo -en "\e]P5D160C4" #darkmagenta
+	    echo -en "\e]PDA03196" #magenta
+	    echo -en "\e]P600A4C1" #darkcyan
+	    echo -en "\e]PE007693" #cyan
+	    echo -en "\e]P73E424D" #lightgrey
+	    echo -en "\e]PF282C36" #white
+	    clear #for background artifacting
+	    ;;
+    "insig")
+	    # Console colors -Insignificato-
+	    echo -en "\e]P0111111" #background
+	    echo -en "\e]P85a5b5c" #darkgrey
+	    echo -en "\e]P1755a5b" #darkred
+	    echo -en "\e]P9a37679" #red
+	    echo -en "\e]P268755a" #darkgreen
+	    echo -en "\e]PA87a376" #green
+	    echo -en "\e]P3756e5a" #brown
+	    echo -en "\e]PBa39b76" #yellow
+	    echo -en "\e]P45b6976" #darkblue
+	    echo -en "\e]PC758ba3" #blue
+	    echo -en "\e]P5755b76" #darkmagenta
+	    echo -en "\e]PD9f76a3" #magenta
+	    echo -en "\e]P65b7674" #darkcyan
+	    echo -en "\e]PE75a3a1" #cyan
+	    echo -en "\e]P7808080" #lightgrey
+	    echo -en "\e]PFaeafb0" #white
+	    clear #for background artifacting
+	    ;;
+    "mono")
+	    ##Console Colours - Mono; Tweaked for console by WuxMedia
+	    echo -en "\e]P0111111" #background
+	    echo -en "\e]P8B0B0B0" #darkgrey
+	    echo -en "\e]P15a5a5a" #darkred
+	    echo -en "\e]P9636363" #red
+	    echo -en "\e]P26B6B6B" #darkgreen
+	    echo -en "\e]PAA5A5A5" #green
+	    echo -en "\e]P3969696" #brown
+	    echo -en "\e]PBE5E5E5" #yellow
+	    echo -en "\e]P45a5a5a" #darkblue
+	    echo -en "\e]PC6c6c6c" #blue
+	    echo -en "\e]P5717171" #darkmagenta
+	    echo -en "\e]PD757575" #magenta
+	    echo -en "\e]P6777777" #darkcyan
+	    echo -en "\e]PEC4C4C4" #cyan
+	    echo -en "\e]P7FFFFFF" #lightgrey
+	    echo -en "\e]PFDEDEDE" #white
+	    clear #for background artifacting
+	    ;;
+    "cvc")
+	    ##Console Colors - Baskerville - Count Von Count;
+	    #tweaked for console by DJ: TODO higher contrast
+	    echo -en "\e]P0303030"
+	    echo -en "\e]P85E5E5E"
+	    echo -en "\e]P7C6C6C6"
+	    echo -en "\e]PFFFFFFF"
+	    echo -en "\e]P1C10023"
+	    echo -en "\e]P9FF8781"
+	    echo -en "\e]P3B51D2C"
+	    echo -en "\e]PBFF948B"
+	    echo -en "\e]P2A83334"
+	    echo -en "\e]PAFFA095"
+	    echo -en "\e]P69A413D"
+	    echo -en "\e]PEFFAAA0"
+	    echo -en "\e]P48C4B46"
+	    echo -en "\e]PCFEB2AA"
+	    echo -en "\e]P57D534F"
+	    echo -en "\e]PDEBBBB5"
+	    clear #for background artifacting
+	    ;;
+    "vblue")
+	    ## Console Colors - Gutterslob Visiblue
+	    echo -en "\e]P0000000"#background#
+	    echo -en "\e]P8333399"
+	    echo -en "\e]P16666CC"
+	    echo -en "\e]P99999FF"
+	    echo -en "\e]P20099CC"
+	    echo -en "\e]PA00CCFF"
+	    echo -en "\e]P33366CC"
+	    echo -en "\e]PB6699FF"
+	    echo -en "\e]P4006699"
+	    echo -en "\e]PC0099CC"
+	    echo -en "\e]P50066FF"
+	    echo -en "\e]PD0099FF"
+	    echo -en "\e]P6669999"
+	    echo -en "\e]PE66CCCC"
+	    echo -en "\e]P799CCCC"
+	    echo -en "\e]PFCCFFFF"
+	    clear #for background artifacting
+	    ;;
+    *)
+	    echo "No valid theme chosen"
+	    echo "call the script without arguments"
+	    echo "for a list of themes"
+	    ;;
+esac
+fi
