@@ -180,7 +180,6 @@ case "$1" in
 	    ;;
     "nature")
 	    echo -en "\e]P0170F0D"
-	    #Original Color 0 #392925
 	    echo -en "\e]P8544B2E"
 	    echo -en "\e]P198724C"
 	    echo -en "\e]P9AF652F"
