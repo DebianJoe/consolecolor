@@ -140,20 +140,20 @@ case "$1" in
 	    ## Console Colors - FarSide - Baskerville
 	    echo -en "\e]P0303030" #black#
 	    echo -en "\e]P85E5E5E" #black2#
-	    echo -en "\e]P7C6C6C6" #white#
-	    echo -en "\e]PFFFFFFF" #white2#
 	    echo -en "\e]P1A43261" #red#
 	    echo -en "\e]P9FF9FC9" #red2#
-	    echo -en "\e]P3007086" #yellow#
-	    echo -en "\e]PB00DDF4" #yellow2#
 	    echo -en "\e]P2006CA5" #green#
 	    echo -en "\e]PA3BD6FF" #green2#
-	    echo -en "\e]P60061B1" #cyan#
-	    echo -en "\e]PE93C9FF" #cyan2#
+	    echo -en "\e]P3007086" #yellow#
+	    echo -en "\e]PB00DDF4" #yellow2#
 	    echo -en "\e]P46751A6" #blue#
 	    echo -en "\e]PCD5B8FF" #blue2#
 	    echo -en "\e]P5913E88" #magenta#
 	    echo -en "\e]PDFFA7F6" #magenta2#
+	    echo -en "\e]P60061B1" #cyan#
+	    echo -en "\e]PE93C9FF" #cyan2#
+	    echo -en "\e]P7C6C6C6" #white#
+	    echo -en "\e]PFFFFFFF" #white2#
 	    clear #for background artifacting
 	    ;;
     *)
