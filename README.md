@@ -5,7 +5,7 @@ On the Fly theme switching for Linux console and Framebuffer builds.
 
 Credits:
 ===========
-Wuxmedia:       the original idea, porting.
+Wuxmedia:       the original idea, porting.  
 Gutterslob,     original artist.  
 Baskerville:    original artist.  
 !OK100:         original artist.  
