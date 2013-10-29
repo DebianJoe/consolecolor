@@ -10,4 +10,4 @@ MachineBacon:	original artist, porting.
 Gutterslob,     original artist.  
 Baskerville:    original artist.  
 !OK100:         original artist.  
-DebainJoe:      Porting, script, janitorial services.  
+DebianJoe:      Porting, script, janitorial services.  
