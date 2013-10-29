@@ -27,7 +27,7 @@ if [ $# -lt 1 ]; then
 else
 case "$1" in
     "ilight")
-	    # Console Colors - Baskerville - IvoryLight-
+	    ## Console colors - Baskerville - IvoryLight;
 	    echo -en "\e]P0FEF9EC" #background
 	    echo -en "\e]P8C5C1B4" #darkgrey
 	    echo -en "\e]P1E75C58" #darkred
@@ -47,7 +47,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "insig")
-	    # Console Colors - anon - Insignificato -
+	    ## Console colors - anon - Insignificato;
 	    echo -en "\e]P0111111" #background
 	    echo -en "\e]P85a5b5c" #darkgrey
 	    echo -en "\e]P1755a5b" #darkred
@@ -67,8 +67,8 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "mono")
-	    ## Console Colors - Mono;
-	    # tweaked for console by WuxMedia
+	    ## Console colors - Mono;
+	    # tweaked for console by WuxMedia;
 	    echo -en "\e]P0111111" #background
 	    echo -en "\e]P8B0B0B0" #darkgrey
 	    echo -en "\e]P15a5a5a" #darkred
@@ -88,8 +88,8 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "cvc")
-	    ## Console Colors - Baskerville - Count Von Count;
-	    # tweaked for console by DJ: TODO higher contrast
+	    ## Console colors - Baskerville - Count Von Count;
+	    # tweaked for console by DJ;
 	    echo -en "\e]P0303030" #background
 	    echo -en "\e]P85E5E5E" #darkgrey
 	    echo -en "\e]P1C10023" #darkred
@@ -109,7 +109,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "vblue")
-	    ## Console Colors - Gutterslob - Visiblue
+	    ## Console colors - Gutterslob - Visiblue;
 	    echo -en "\e]P0000000" #background
 	    echo -en "\e]P8333399" #darkgrey
 	    echo -en "\e]P16666CC" #darkred
@@ -129,7 +129,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "matrix")
-	    ## Console Colors - !OK-100 - Matrix
+	    ## Console colors - !OK-100 - Matrix;
 	    echo -en "\e]P0000000" #background
 	    echo -en "\e]P8000000" #darkgrey
 	    echo -en "\e]P155FF55" #darkred
@@ -149,7 +149,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "fside")
-	    ## Console Colors - FarSide - Baskerville
+	    ## Console colors - FarSide - Baskerville;
 	    echo -en "\e]P0303030" #background
 	    echo -en "\e]P85E5E5E" #darkgrey
 	    echo -en "\e]P1A43261" #darkred
@@ -169,7 +169,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "precision")
-	    ## Console Colors - Baconator - Precision
+	    ## Console colors - Baconator - Precision;
 	    echo -en "\e]P0313131" #background
 	    echo -en "\e]P8AEA79F" #darkgrey
 	    echo -en "\e]P177216F" #darkred
@@ -189,7 +189,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "nature")
-	    ## Console Colors - Gutterslob - Nature Suede
+	    ## Console colors - Gutterslob - Nature Suede;
 	    echo -en "\e]P0170F0D" #background
 	    echo -en "\e]P8544B2E" #darkgrey
 	    echo -en "\e]P198724C" #darkred
@@ -209,7 +209,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "darkocean")
-	    ## Console colors - Doomicide - Dark Ocean
+	    ## Console colors - Doomicide - Dark Ocean;
 	    echo -en "\e]P0000000" #background
 	    echo -en "\e]P838372C" #darkgrey
 	    echo -en "\e]P1571DC2" #darkred
@@ -229,7 +229,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "sos")
-	    ## Console colors - Rooster - SOS
+	    ## Console colors - Rooster - SOS;
 	    echo -en "\e]P0373B43" #background
 	    echo -en "\e]P8373B43" #darkgrey
 	    echo -en "\e]P1FDCD39" #darkred
@@ -249,7 +249,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "cuppa")
-            ## Console colors - Baconator - Cuppa -
+            ## Console colors - Baconator - Cuppa;
             echo -en "\e]P0170F0D" #background
             echo -en "\e]P8353535" #darkgrey
             echo -en "\e]P1443322" #darkred
@@ -269,7 +269,7 @@ case "$1" in
             clear #for background artifacting
             ;;
     "scm")
-            ## Console colors - Baconator - Scotch Cut Mixture -
+            ## Console colors - Baconator - Scotch Cut Mixture;
             echo -en "\e]P0050505" #background
             echo -en "\e]P85E5D68" #darkgrey
             echo -en "\e]P14E313F" #darkred
@@ -289,7 +289,7 @@ case "$1" in
             clear #for background artifacting
             ;;
     "zenburn")
-	    ## Console colors - Jani Nurminen - Zenburn
+	    ## Console colors - Jani Nurminen - Zenburn;
             echo -en "\e]P01E2320" #background
             echo -en "\e]P8709080" #darkgrey
             echo -en "\e]P1705050" #darkred
@@ -309,8 +309,8 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "tdark")
-	    ## Console colors - Emacs Tango Dark
-	    # tweaked for the console by DebianJoe
+	    ## Console colors - Emacs Tango Dark;
+	    # tweaked for the console by DebianJoe;
             echo -en "\e]P0202020" #background
             echo -en "\e]P8606060" #darkgrey
             echo -en "\e]P1FF6565" #darkred
@@ -330,7 +330,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
      "wolf")
-            ## Console colors - Baconator - Reichswolf
+            ## Console colors - Baconator - Reichswolf;
             echo -en "\e]P0727c79" #background
             echo -en "\e]P8CAC26E" #darkgrey
             echo -en "\e]P14D4600" #darkred
@@ -350,7 +350,7 @@ case "$1" in
             clear #for background artifacting
             ;;
     "solar")
-	    ## Console colors - Solarized
+	    ## Console colors - Solarized;
             echo -en "\e]P0073642" #background
             echo -en "\e]P8002b36" #darkgrey
             echo -en "\e]P1dc322f" #darkred
@@ -370,6 +370,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "solar2")
+	    ## Console colors - Solarized Dark;
             echo -en "\e]P0262626" #background
             echo -en "\e]P81c1c1c" #darkgrey
             echo -en "\e]P1d70000" #darkred
@@ -389,6 +390,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     *)
+	    # Argument present, but not a match;
 	    echo "No valid theme chosen"
 	    echo "call the script without arguments"
 	    echo "for a list of themes"
