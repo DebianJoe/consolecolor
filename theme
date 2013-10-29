@@ -22,6 +22,8 @@ if [ $# -lt 1 ]; then
    echo "'zenburn' = Jani Nurminen's Famous Vim Theme"
    echo "'tdark' = Emacs Tango Dark"
    echo "'wolf' = Baconator's Reichswolf"
+   echo "'solar' = Solarized"
+   echo "'solar2' = Solarized Dark"
 else
 case "$1" in
     "ilight")
@@ -328,7 +330,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
      "wolf")
-               # Console colors - Baconator - Reichswolf
+            ## Console colors - Baconator - Reichswolf
             echo -en "\e]P0727c79" #background
             echo -en "\e]P8CAC26E" #darkgrey
             echo -en "\e]P14D4600" #darkred
@@ -347,6 +349,45 @@ case "$1" in
             echo -en "\e]PF101615" #white
             clear #for background artifacting
             ;;
+    "solar")
+	    ## Console colors - Solarized
+            echo -en "\e]P0073642" #background
+            echo -en "\e]P8002b36" #darkgrey
+            echo -en "\e]P1dc322f" #darkred
+            echo -en "\e]P9cb4b16" #red
+            echo -en "\e]P2859900" #darkgreen
+            echo -en "\e]PA586e75" #green
+            echo -en "\e]P3b58900" #brown
+            echo -en "\e]PB657b83" #yellow
+            echo -en "\e]P4268bd2" #darkblue
+            echo -en "\e]PC839496" #blue
+            echo -en "\e]P5d33682" #darkmagenta
+            echo -en "\e]PD6c71c4" #magenta
+            echo -en "\e]P62aa198" #darkcyan
+            echo -en "\e]PE93a1a1" #cyan
+            echo -en "\e]P7eee8d5" #lightgrey
+            echo -en "\e]PFfdf6e3" #white
+	    clear #for background artifacting
+	    ;;
+    "solar2")
+            echo -en "\e]P0262626" #background
+            echo -en "\e]P81c1c1c" #darkgrey
+            echo -en "\e]P1d70000" #darkred
+            echo -en "\e]P9d75f00" #red
+            echo -en "\e]P25f8700" #darkgreen
+            echo -en "\e]PA585858" #green
+            echo -en "\e]P3af8700" #brown
+            echo -en "\e]PB626262" #yellow
+            echo -en "\e]P40087ff" #darkblue
+            echo -en "\e]PC808080" #blue
+            echo -en "\e]P5af005f" #darkmagenta
+            echo -en "\e]PD5f5faf" #magenta
+            echo -en "\e]P600afaf" #darkcyan
+            echo -en "\e]PE8a8a8a" #cyan
+            echo -en "\e]P7e4e4e4" #lightgrey
+            echo -en "\e]PFffffd7" #white
+	    clear #for background artifacting
+	    ;;
     *)
 	    echo "No valid theme chosen"
 	    echo "call the script without arguments"
