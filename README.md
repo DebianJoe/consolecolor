@@ -12,4 +12,5 @@ Baskerville:    original artist.
 !OK100:         original artist.  
 Doomicide:      original artist.  
 Rooster:        original artist.  
+Jani Nurminen:  original artist.  
 DebianJoe:      Porting, script, janitorial services.  
