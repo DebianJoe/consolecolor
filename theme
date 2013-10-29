@@ -15,6 +15,7 @@ if [ $# -lt 1 ]; then
    echo "'fside' = Baskerville's FarSide"
    echo "'precision' = Baconator's Precision"
    echo "'nature' = Gutterslob's Nature Suede"
+   echo "'darkocean' = Doomicide's Dark Ocean"
 else
 case "$1" in
     "ilight")
@@ -179,22 +180,42 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "nature")
-	    echo -en "\e]P0170F0D"
-	    echo -en "\e]P8544B2E"
-	    echo -en "\e]P198724C"
-	    echo -en "\e]P9AF652F"
-	    echo -en "\e]P2908F32"
-	    echo -en "\e]PAC3C13D"
-	    echo -en "\e]P3AA964C"
-	    echo -en "\e]PBC8B55B"
-	    echo -en "\e]P47B854E"
-	    echo -en "\e]PC70A16C"
-	    echo -en "\e]P56B5644"
-	    echo -en "\e]PD98724C"
-	    echo -en "\e]P65C5142"
-	    echo -en "\e]PE778725"
-	    echo -en "\e]P7C8B55B"
-	    echo -en "\e]PFE4DC8C"
+	    echo -en "\e]P0170F0D" #background
+	    echo -en "\e]P8544B2E" #darkgrey
+	    echo -en "\e]P198724C" #darkred
+	    echo -en "\e]P9AF652F" #red
+	    echo -en "\e]P2908F32" #darkgreen
+	    echo -en "\e]PAC3C13D" #green
+	    echo -en "\e]P3AA964C" #brown
+	    echo -en "\e]PBC8B55B" #yellow
+	    echo -en "\e]P47B854E" #darkblue
+	    echo -en "\e]PC70A16C" #blue
+	    echo -en "\e]P56B5644" #darkmagenta
+	    echo -en "\e]PD98724C" #magenta
+	    echo -en "\e]P65C5142" #darkcyan
+	    echo -en "\e]PE778725" #cyan
+	    echo -en "\e]P7C8B55B" #lightgrey
+	    echo -en "\e]PFE4DC8C" #white
+	    clear #for background artifacting
+	    ;;
+    "darkocean")
+	    # Console Colors - Doomicide - Dark Ocean
+	    echo -en "\e]P0000000" #background
+	    echo -en "\e]P838372C" #darkgrey
+	    echo -en "\e]P1571DC2" #darkred
+	    echo -en "\e]P97C54b0" #red
+	    echo -en "\e]P214DB49" #darkgreen
+	    echo -en "\e]PAA2E655" #green
+	    echo -en "\e]P3403d70" #brown
+	    echo -en "\e]PB9C6F59" #yellow
+	    echo -en "\e]P4385A70" #darkblue
+	    echo -en "\e]PC323F5C" #blue
+	    echo -en "\e]P5384894" #darkmagenta
+	    echo -en "\e]PD5E6C99" #magenta
+	    echo -en "\e]P64F3A5E" #darkcyan
+	    echo -en "\e]PE667D77" #cyan
+	    echo -en "\e]P7999999" #lightgrey
+	    echo -en "\e]PFFFFFFF" #white
 	    clear #for background artifacting
 	    ;;
     *)
