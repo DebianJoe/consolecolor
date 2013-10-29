@@ -16,10 +16,11 @@ if [ $# -lt 1 ]; then
    echo "'precision' = Baconator's Precision"
    echo "'nature' = Gutterslob's Nature Suede"
    echo "'darkocean' = Doomicide's Dark Ocean"
+   echo "'sos' = Rooster's SOS"
 else
 case "$1" in
     "ilight")
-	    # Console colors -Baskerville - IvoryLight-
+	    # Console Colors - Baskerville - IvoryLight-
 	    echo -en "\e]P0FEF9EC" #background
 	    echo -en "\e]P8C5C1B4" #darkgrey
 	    echo -en "\e]P1E75C58" #darkred
@@ -39,7 +40,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "insig")
-	    # Console colors -Insignificato-
+	    # Console Colors - anon - Insignificato -
 	    echo -en "\e]P0111111" #background
 	    echo -en "\e]P85a5b5c" #darkgrey
 	    echo -en "\e]P1755a5b" #darkred
@@ -59,7 +60,8 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "mono")
-	    ##Console Colours - Mono; Tweaked for console by WuxMedia
+	    ## Console Colors - Mono;
+	    # tweaked for console by WuxMedia
 	    echo -en "\e]P0111111" #background
 	    echo -en "\e]P8B0B0B0" #darkgrey
 	    echo -en "\e]P15a5a5a" #darkred
@@ -79,8 +81,8 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "cvc")
-	    ##Console Colors - Baskerville - Count Von Count;
-	    #tweaked for console by DJ: TODO higher contrast
+	    ## Console Colors - Baskerville - Count Von Count;
+	    # tweaked for console by DJ: TODO higher contrast
 	    echo -en "\e]P0303030" #background
 	    echo -en "\e]P85E5E5E" #darkgrey
 	    echo -en "\e]P1C10023" #darkred
@@ -100,7 +102,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "vblue")
-	    ## Console Colors - Gutterslob Visiblue
+	    ## Console Colors - Gutterslob - Visiblue
 	    echo -en "\e]P0000000" #background
 	    echo -en "\e]P8333399" #darkgrey
 	    echo -en "\e]P16666CC" #darkred
@@ -120,7 +122,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "matrix")
-	    ## Console Colors - !OK-100 Matrix
+	    ## Console Colors - !OK-100 - Matrix
 	    echo -en "\e]P0000000" #background
 	    echo -en "\e]P8000000" #darkgrey
 	    echo -en "\e]P155FF55" #darkred
@@ -160,7 +162,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "precision")
-	    # Console colors -Baconator - Precision
+	    ## Console Colors - Baconator - Precision
 	    echo -en "\e]P0313131" #background
 	    echo -en "\e]P8AEA79F" #darkgrey
 	    echo -en "\e]P177216F" #darkred
@@ -180,6 +182,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "nature")
+	    ## Console Colors - Gutterslob - Nature Suede
 	    echo -en "\e]P0170F0D" #background
 	    echo -en "\e]P8544B2E" #darkgrey
 	    echo -en "\e]P198724C" #darkred
@@ -199,7 +202,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "darkocean")
-	    # Console Colors - Doomicide - Dark Ocean
+	    ## Console colors - Doomicide - Dark Ocean
 	    echo -en "\e]P0000000" #background
 	    echo -en "\e]P838372C" #darkgrey
 	    echo -en "\e]P1571DC2" #darkred
@@ -216,6 +219,26 @@ case "$1" in
 	    echo -en "\e]PE667D77" #cyan
 	    echo -en "\e]P7999999" #lightgrey
 	    echo -en "\e]PFFFFFFF" #white
+	    clear #for background artifacting
+	    ;;
+    "sos")
+	    ## Console colors - Rooster - SOS
+	    echo -en "\e]P0373B43" #background
+	    echo -en "\e]P8373B43" #darkgrey
+	    echo -en "\e]P1FDCD39" #darkred
+	    echo -en "\e]P9FDCD39" #red
+	    echo -en "\e]P2FBFD59" #darkgreen
+	    echo -en "\e]PAFBFD59" #green
+	    echo -en "\e]P3DEAC40" #brown
+	    echo -en "\e]PBDEAC40" #yellow
+	    echo -en "\e]P4AFB171" #darkblue
+	    echo -en "\e]PCAFB171" #blue
+	    echo -en "\e]P5B387E7" #darkmagenta
+	    echo -en "\e]PDB387E7" #magenta
+	    echo -en "\e]P663E860" #darkcyan
+	    echo -en "\e]PE63E860" #cyan
+	    echo -en "\e]P7EFDECB" #lightgrey
+	    echo -en "\e]PFEFDECB" #white
 	    clear #for background artifacting
 	    ;;
     *)
