@@ -4,7 +4,7 @@
 # of the LinuxBBQ.
 
 if [ $# -lt 1 ]; then
-   echo "Run script as 'theme <name_of_theme>'"
+   echo "Run script as 'ccolor <name_of_theme>'"
    echo "available themes"
    echo "'ilight' = Baskerville's Ivory Light"
    echo "'insig' = Baskerville's Insignificato"
