@@ -28,6 +28,7 @@ if [ $# -lt 1 ]; then
    echo "'afog' = Gutterslob's Aiko Fog"
    echo "'lumi' = Gutterslob's Lumifoo"
    echo "'autumn' = Dkeg's Autumn"
+   echo "'flower' = Dkeg's Flower Drive-by"
 else
 case "$1" in
     "ilight")
@@ -454,6 +455,7 @@ case "$1" in
 	    clear #for background artifacting
 	    ;;
     "autumn")
+	    ## Console colors - Dkeg - Autumn;
             echo -en "\e]P0170F0D" #background
             echo -en "\e]P89B5423" #darkgrey
             echo -en "\e]P12E1910" #darkred
@@ -470,6 +472,26 @@ case "$1" in
             echo -en "\e]PEF4CEA7" #cyan
             echo -en "\e]P7977054" #lightgrey
             echo -en "\e]PFFBF2E5" #white
+	    clear #for background artifacting
+	    ;;
+    "flower")
+	    ## Console colors - Dkeg - Flower Drive By;
+            echo -en "\e]P0170F0D" #background
+            echo -en "\e]P8A09072" #darkgrey
+            echo -en "\e]P12F1D27" #darkred
+            echo -en "\e]P9A65D24" #red
+            echo -en "\e]P2472C37" #darkgreen
+            echo -en "\e]PAA9D19C" #green
+            echo -en "\e]P34E5232" #brown
+            echo -en "\e]PBB0A18C" #yellow
+            echo -en "\e]P4533446" #darkblue
+            echo -en "\e]PCCAB499" #blue
+            echo -en "\e]P5675552" #darkmagenta
+            echo -en "\e]PDDCBB52" #magenta
+            echo -en "\e]P66D905D" #darkcyan
+            echo -en "\e]PEE5D3AE" #cyan
+            echo -en "\e]P78E7066" #lightgrey
+            echo -en "\e]PFFBF5DC" #white
 	    clear #for background artifacting
 	    ;;
     *)
