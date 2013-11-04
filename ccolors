@@ -27,6 +27,7 @@ if [ $# -lt 1 ]; then
    echo "'astro' = Astromouse"
    echo "'afog' = Gutterslob's Aiko Fog"
    echo "'lumi' = Gutterslob's Lumifoo"
+   echo "'autumn' = Dkeg's Autumn"
 else
 case "$1" in
     "ilight")
@@ -450,6 +451,25 @@ case "$1" in
             echo -en "\e]PEa4d0c1" #cyan
             echo -en "\e]P7919191" #lightgrey
             echo -en "\e]PFd0d0d0" #white
+	    clear #for background artifacting
+	    ;;
+    "autumn")
+            echo -en "\e]P0170F0D" #background
+            echo -en "\e]P89B5423" #darkgrey
+            echo -en "\e]P12E1910" #darkred
+            echo -en "\e]P9B09C8F" #red
+            echo -en "\e]P2502911" #darkgreen
+            echo -en "\e]PAB98C60" #green
+            echo -en "\e]P35B331D" #brown
+            echo -en "\e]PBCA682A" #yellow
+            echo -en "\e]P4644B31" #darkblue
+            echo -en "\e]PCDEB291" #blue
+            echo -en "\e]P56A574D" #darkmagenta
+            echo -en "\e]PDE99B63" #magenta
+            echo -en "\e]P6787E81" #darkcyan
+            echo -en "\e]PEF4CEA7" #cyan
+            echo -en "\e]P7977054" #lightgrey
+            echo -en "\e]PFFBF2E5" #white
 	    clear #for background artifacting
 	    ;;
     *)
