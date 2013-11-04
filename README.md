@@ -7,6 +7,7 @@ Credits:
 ===========
 Wuxmedia:       the original idea, porting.  
 MachineBacon:	original artist, porting.  
+DKeg:           original artist.  
 Gutterslob:     original artist.  
 Baskerville:    original artist.  
 !OK100:         original artist.  
