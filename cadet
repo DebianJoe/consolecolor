@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+
+#
+# script to automate usage of color files to console,
+# Xresources (all formats), and gtk2rc
+#
+
+import os
+import glob
+import ConfigParser
+from sys import argv
+
+if len(sys.argv) < 2:
+    pass
+elif len(sys.argv) == 2:
+    script, switch = argv
+elif len(sys.argv) == 3:
+    script, switch, theme = argv
+elif len(sys.argv) == 4:
+    script, switch, theme, path = argv
+else:
+    pass
+
+Config = ConfigParser.ConfigParser()
+
+# Need to use Config.items('colors')
+# to grab the left hand column of the xfile under [colors]
+# Config.read (os.path.expanduser('~/.colors'))
+# importing GLOB to call >>glob.glob('*.ccolor')
+# to properly grab only desired file extensions.
